@@ -52,11 +52,11 @@ a:hover {
 }
 
 .colored-section  h2 {
-    color: #ff9642;
+    color: #f4d160;
 }
 
 .light-section {
-  background-color: #ebd8b7;
+  background-color: #faf2da;
 }
 
 /* Navigation Bar */
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .icon {
-  color: #f39233;
+  color: #ffa62b;
   margin-bottom: 1rem;
 }
 
@@ -134,7 +134,10 @@ a:hover {
 }
 
 .icon:hover {
-  color: #fb743e;
+  color: #ffa62b;
+}
+.icon-about:hover{
+  color: #ffa62b;
 }
 
 /* makes carousel buttons visible on plain white background */
