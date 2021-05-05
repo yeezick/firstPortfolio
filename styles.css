@@ -36,9 +36,6 @@ a:hover {
   font-size: 3.5rem;
   line-height: 1.5;
 }
-.colored-section  h2 {
-    color: #f4d160;
-}
 
 
 /* Containers */
@@ -54,8 +51,12 @@ a:hover {
   color: #fff;
 }
 
+.colored-section  h2 {
+    color: #ff9642;
+}
+
 .light-section {
-  background-color: #fff;
+  background-color: #ebd8b7;
 }
 
 /* Navigation Bar */
@@ -123,7 +124,7 @@ a:hover {
 }
 
 .icon {
-  color: #f4d160;
+  color: #f39233;
   margin-bottom: 1rem;
 }
 
@@ -136,9 +137,9 @@ a:hover {
   color: #fb743e;
 }
 
-/* makes carousel buttons visible */
+/* makes carousel buttons visible on plain white background */
 
-.carousel-control-next-icon:after
+/* .carousel-control-next-icon:after
 {
   content: '>';
   font-size: 55px;
@@ -150,7 +151,7 @@ a:hover {
   font-size: 55px;
   color: red;
 }
-
+ */
 
 
 /* portfolio Section */
