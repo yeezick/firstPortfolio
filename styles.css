@@ -8,7 +8,30 @@ body {
 
 
  h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat";
+  font-family: "Spectral", serif;
+}
+
+h2 {
+font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.colored-section h2 {
+  color: #ffd60a;
+}
+
+.light-section h2 {
+  color: #28527a;
+}
+
+.colored-section h3 {
+  color: #ffd60a;
+}
+
+card-body h3 {
+  text-decoration: underline;
 }
 
 p {
@@ -19,10 +42,8 @@ li {
   padding: 0.5rem;
 }
 
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-
+a {
+  color: black;
 }
 a:hover {
   color: #fb743e;
@@ -37,7 +58,6 @@ a:hover {
   line-height: 1.5;
 }
 
-
 /* Containers */
 
 .container-fluid{
@@ -48,12 +68,12 @@ a:hover {
 
 .colored-section {
   background-color: #28527a;
-  color: #fff;
+  color: #faf2da;
 }
-
+/* 
 .colored-section  h2 {
-    color: #f4d160;
-}
+    /* color: #;f4d160 
+} */
 
 .light-section {
   background-color: #faf2da;
@@ -66,8 +86,8 @@ a:hover {
 }
 
 .navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-family: "Spectral", serif;
+  font-size: 3rem;
   font-weight: bold;
 }
 
@@ -81,6 +101,9 @@ a:hover {
 }
 
 /* Buttons */
+.title-buttons {
+  margin-top: 1rem;
+}
 
 .link-button {
   margin: 5% 3% 5% 0;
@@ -98,17 +121,14 @@ a:hover {
   padding: 3% 15% 7%;
 }
 
-/* Title Image */
-
 .title-image {
   width: 80%;
   border-radius: 25%;
-  position: absolute;
-  right: 30%;
+  position: relative;
+  right: 10%;
 }
 
 /* about Section */
-
 .about-image {
   width: 10%;
   border-radius: 100%;
@@ -124,7 +144,7 @@ a:hover {
 }
 
 .icon {
-  color: #ffa62b;
+  color:#ffaa00;
   margin-bottom: 1rem;
 }
 
@@ -169,6 +189,8 @@ a:hover {
   color: inherit;
 }
 
+
+/* screens smaller than 1028 */
 @media (max-width: 1028px) {
 
   #title {
@@ -178,5 +200,6 @@ a:hover {
   .title-image {
     position: static;
     transform: rotate(0);
+    margin-bottom: 2em;
   }
 }
