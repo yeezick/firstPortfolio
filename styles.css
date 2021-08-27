@@ -19,7 +19,7 @@ font-size: 3.5rem;
 }
 
 .colored-section h2 {
-  color: #ffd60a;
+  color: #F4D160;
 }
 
 .light-section h2 {
@@ -27,7 +27,7 @@ font-size: 3.5rem;
 }
 
 .colored-section h3 {
-  color: #ffd60a;
+  color: #F4D160;
 }
 
 card-body h3 {
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .icon {
-  color:#ffaa00;
+  color:#F4D160;
   margin-bottom: 1rem;
 }
 
@@ -201,5 +201,21 @@ a:hover {
     position: static;
     transform: rotate(0);
     margin-bottom: 2em;
+  }
+
+  .big-heading {
+  font-size: 5rem;
+  }
+  .light-section h2, .colored-section h2 {
+    font-size: 7rem;
+  }
+  p, li, a {
+    font-size: 2.5rem
+  }
+  li {
+    text-align: left;
+  }
+  .colored-section h3,.goals-title {
+    font-size: 4rem
   }
 } 
